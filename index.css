@@ -1,0 +1,180 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.button-icon ul {
+    position: relative;
+    display: flex;
+    gap: 40px;
+}
+
+.button-icon ul li {
+    position: relative;
+    list-style: none;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.button-icon ul li .fa-brands{
+    font-size: 6rem;
+    -webkit-text-stroke: 2px var(--clr);
+    color: transparent;
+}
+
+
+.button-icon ul li::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    border-bottom: 4px solid var(--clr);
+    transition:0.4s ease-in-out;
+    font-family: fontAwesome;
+    text-align: center;
+    line-height: 120px;
+    font-size: 6rem;
+    color: var(--clr);
+}
+
+.button-icon ul li:hover::before  {
+    height: 100%;
+}
+
+.button-icon ul li:nth-child(1):before {
+    content: '\f099';
+}
+
+.button-icon ul li:nth-child(2):before {
+    content: '\f16d';
+}
+
+.button-icon ul li:nth-child(3):before {
+    content: '\f232';
+}
+
+.button-icon ul li:nth-child(4):before {
+    content: '\f167';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+.button-icon ul li .fa-instagram::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 4px solid  #dd2a7b;
+    transition: all 0.5s ease-in-out
+}
+
+.button-icon ul li .fa-whatsapp::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 4px solid  #25d366;
+    transition: all 0.5s ease-in-out
+}
+
+.button-icon ul li .fa-youtube::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 4px solid  #ff0000;
+    transition: all 0.5s ease-in-out
+}
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
